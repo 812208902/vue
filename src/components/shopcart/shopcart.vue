@@ -28,8 +28,7 @@
           <h1 class="title">购物车</h1>
           <span class="empty">清空</span>
         </div>
-        <div class="list-content" 
-        ="listContent">
+        <div class="list-content" ref="listContent">
           <ul>
             <li class="food" v-for="food in selectFoods">
               <span class="name">{{food.name}}</span>

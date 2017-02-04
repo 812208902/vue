@@ -89,7 +89,6 @@
           return;
         }
         this.selectedFood = food;
-        console.log(this.selectedFood);
         this.$refs.food.show();
       },
       _initScroll() {
